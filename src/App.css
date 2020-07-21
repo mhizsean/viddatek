@@ -1,7 +1,325 @@
+.navbar {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.navbar-brand {
+  font-size: 35px !important;
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: overline;
+  transition: all linear 0.4s;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #373B44 !important;
+  /* padding: 8px; */
+  transition: all linear 0.4s;
+}
+
+.nav-link:hover {
+  background-color: #373B44;
+  color: rgb(200, 198, 198) !important;
+  padding: 10px;
+}
+
+
 .hero {
-  background: #373B44;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-padding: 250px;
-/* height: 500px; */
+ /* background-color: grey; */
+padding: 200px;
+background: #373B44;  
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  
+background: linear-gradient(to right, #4286f4, #373B44);
+}
+
+.hero img {
+  width: 100%;
+  /* height: 500px; */
+}
+
+
+/* About */
+.about-page {
+  margin: 100px;
+}
+
+.brief-info, .brief-img {
+  padding: 20px;
+}
+
+.brief-info {
+  margin: auto;
+  text-align: left;
+}
+
+.brief-info h4 {
+  font-size: 20px;
+  color: #193065;
+  text-transform: uppercase;
+}
+
+.brief-info p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.brief-info button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 5px;
+  cursor: pointer;
+
+}
+
+.brief-img img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about-page .aim {
+  margin-top: 100px;
+  padding: 15px;
+}
+
+.about-page .aim h3 {
+  text-align: center;
+  color: rgb(0, 9, 105);
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.about-page .aim p {
+  text-align: center;
+}
+
+.team {
+  margin-top: 100px;
+}
+
+.team h2, .team p {
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+
+.team h2 span {
+  color: #083aae;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.team img  {
+  width: 100%;
+  /* height: 350px; */
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.team-info {
+  text-align: center;
+  margin: -10px;
+}
+
+.team-info h5 {
+  color: #083aae;
+  font-weight: bold;
+}
+
+.team-info i {
+  padding: 10px;
+  font-size: 25px;
+  color: #555555;
+}
+.team-info i:hover {
+  font-size: 27px;
+  color: #172ebe;
+}
+
+/* Pricing */
+.price {
+  margin-bottom: 50px;
+}
+
+.price h3 {
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.price span {
+  color: #001ec5c9;
+  font-weight: bold;
+}
+
+.price .info {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.price .card {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  margin: 10px;
+}
+
+.web-type .card-title {
+  text-align: center;
+  font-size: 27px;
+  color: #193065;
+}
+
+.web-type .amt {
+  text-align: center;
+}
+.web-type .amt span {
+  font-size: 50px;
+}
+
+.price .desc {
+  font-size: 13px;
+  text-align: center;
+  color: rgb(126, 126, 126);
+}
+
+.price .offers {
+  padding: 5px;
+}
+
+.price .offers i {
+  color: #06be4d;
+  font-size: 25px;
+  padding: 5px;
+}
+
+/* contact */
+.contact .header {
+  background-image: url(./assets/contact1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: #373B44;
+  padding: 100px;
+
+}
+
+.contact .header  h3 {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact .details {
+  margin: auto;
+  width: 50%;
+}
+.contact .details p {
+  padding: 8px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.contact-details {
+  margin-bottom: 50px;
+}
+
+.contact-btn {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+}
+
+
+/* Footer */
+.top-footer {
+  background-color: #4286f4;
+  padding: 20px;
+}
+
+.top-footer h3 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 35px;
+}
+
+.top-footer p {
+  text-align: justify;
+}
+.top-footer i {
+  padding: 6px;
+  font-size: 20px;
+  border: 1px solid rgb(33, 33, 33);
+  border-radius: 25%;
+  margin: 3px;
+  color: #202228;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+
+.top-footer i:hover {
+  color: #555555;
+}
+
+.top-footer ul li {
+  font-size: 15px;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+
+.top-footer ul li:hover {
+  color: #555555;
+  padding-left: 10px;
+}
+
+.subscribe input 
+{
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.subscribe button {
+    border: none;
+    background-color: #000;
+    color: #f0fff0;
+    padding: 8px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+
+.bottom-footer {
+  background-color: #080d22;
+  color: #f0fff0;
+  height: 40px;
+  /* margin-top: -50px; */
+  border-top: 1px solid grey;
+
+}
+
+.bottom-footer p {
+  text-align: center;
+  font-size: 15px;
 }
