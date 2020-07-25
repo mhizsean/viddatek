@@ -1,38 +1,511 @@
-.App {
+.navbar {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.navbar-brand {
+  font-size: 35px !important;
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: overline;
+  transition: all linear 0.4s;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #373B44 !important;
+  /* padding: 8px; */
+  transition: all linear 0.4s;
+}
+
+.nav-link:hover {
+  background-color: #373B44;
+  color: rgb(200, 198, 198) !important;
+  padding: 10px;
+}
+
+
+.hero {
+ /* background-color: grey; */
+  padding: 200px;
+  background-image: url(./assets/home.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: #121214;
+
+}
+
+.hero .info {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero h2{
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+text-align: center;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero p {
+  color: #f0fff0;
+  font-size: 17px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.hero button {
+  background-color: #000000;
+  color: #f0fff0;
+  padding: 8px;
+  border: none;
+  width: 150px;
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+
+.section-one {
+  background-color: rgb(26, 26, 101);
+  padding: 70px;
+  color: #f0fff0;
+}
+
+.section-one h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.section-one .info {
+  text-align: center;
+  font-size: 16px;
+
+}
+
+.section-one .stats {
+  
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section-one .stats h1 {
+  font-size: 45px;
+}
+
+.section-one .stats p {
+  text-transform: uppercase;
+}
+
+.section-two {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.section-two h2 {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bolder;
+}
+
+.section-two h2 span {
+  color: #083aae;
+}
+
+.section-two button {
+  background-color: #000;
+  color: #f0fff0;
+  border: none;
+  padding: 10px;
+  width: 100px;
+}
+.section-two img {
+  width: 100%;
+}
+
+.services {
+  margin-top: 100px;
+  background-color: #efefef;
+  padding: 70px;
+}
+.services .cont {
+  /* border: 1px dotted #080d22;
+  border-radius: 50%; */
+  padding: 20px;
+  text-align: center;
+}
+
+.services i {
+  color: #172ebe;
+  font-size: 35px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.testimo {
+  text-align: center;
+  padding: 50px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.testimo h2 {
+  font-size: 42px;
+  font-weight: bolder;
+}
+
+.testimo h2 span {
+  color: #083aae;
+}
+
+.testimo img {
+  width: 100%;
+  height: 250px;
+  border-radius: 50%;
+  padding: 50px;
+}
+
+.testimo p {
+  width: 70%;
+  margin: auto;
+}
+
+.section-three {
+  background-color: #efefef;
+  padding: 50px;
+  text-align: center;
+}
+
+.section-three button {
+  background-color: #000000;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  width: 120px;
+}
+
+.section-three h2 {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+
+.section-three p {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.section-three span {
+  color: #083aae;
+  font-weight: bold;
+}
+
+.portfolio {
+  margin: 100px;
+}
+
+.portfolio h2 {
+  font-size: 42px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.portfolio h2 span {
+  color: #083aae;
+  
+}
+
+.portfolio .card {
+  height: 400px;
+}
+
+.portfolio img {
+  width: 100%;
+  height: 200px;
+}
+
+/* About */
+.about-page {
+  margin: 100px;
+}
+
+.brief-info, .brief-img {
+  padding: 20px;
+}
+
+.brief-info {
+  margin: auto;
+  text-align: left;
+}
+
+.brief-info h4 {
+  font-size: 20px;
+  color: #193065;
+  text-transform: uppercase;
+}
+
+.brief-info p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.brief-info button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 5px;
+  cursor: pointer;
+
+}
+
+.brief-img img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about-page .aim {
+  margin-top: 100px;
+  padding: 15px;
+}
+
+.about-page .aim h3 {
+  text-align: center;
+  color: rgb(0, 9, 105);
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.about-page .aim p {
+  text-align: center;
+}
+
+.team {
+  margin-top: 100px;
+}
+
+.team h2, .team p {
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+
+.team h2 span {
+  color: #083aae;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.team img  {
+  width: 100%;
+  /* height: 350px; */
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.team-info {
+  text-align: center;
+  margin: -10px;
+}
+
+.team-info h5 {
+  color: #083aae;
+  font-weight: bold;
+}
+
+.team-info i {
+  padding: 10px;
+  font-size: 25px;
+  color: #555555;
+}
+.team-info i:hover {
+  font-size: 27px;
+  color: #172ebe;
+}
+
+/* Pricing */
+.price {
+  margin-bottom: 50px;
+}
+
+.price h3 {
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.price span {
+  color: #001ec5c9;
+  font-weight: bold;
+}
+
+.price .info {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.price .card {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  margin: 10px;
+}
+
+.web-type .card-title {
+  text-align: center;
+  font-size: 27px;
+  color: #193065;
+}
+
+.web-type .amt {
+  text-align: center;
+}
+.web-type .amt span {
+  font-size: 50px;
+}
+
+.price .desc {
+  font-size: 13px;
+  text-align: center;
+  color: rgb(126, 126, 126);
+}
+
+.price .offers {
+  padding: 5px;
+}
+
+.price .offers i {
+  color: #06be4d;
+  font-size: 25px;
+  padding: 5px;
+}
+
+/* contact */
+.contact .header {
+  background-image: url(./assets/contact1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: #373B44;
+  padding: 100px;
+
+}
+
+.contact .header  h3 {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact .details {
+  margin: auto;
+  width: 50%;
+}
+.contact .details p {
+  padding: 8px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.contact-details {
+  margin-bottom: 50px;
+}
+
+.contact-btn {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+}
+
+
+/* Footer */
+.top-footer {
+  background-color: #4286f4;
+  padding: 20px;
+}
+
+.top-footer h3 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 35px;
+}
+
+.top-footer p {
+  text-align: justify;
+}
+.top-footer i {
+  padding: 6px;
+  font-size: 20px;
+  border: 1px solid rgb(33, 33, 33);
+  border-radius: 25%;
+  margin: 3px;
+  color: #202228;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+
+.top-footer i:hover {
+  color: #555555;
+}
+
+.top-footer ul li {
+  font-size: 15px;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+
+.top-footer ul li:hover {
+  color: #555555;
+  padding-left: 10px;
+}
+
+.subscribe input 
+{
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.subscribe button {
+    border: none;
+    background-color: #000;
+    color: #f0fff0;
+    padding: 8px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+
+.bottom-footer {
+  background-color: #080d22;
+  color: #f0fff0;
+  height: 40px;
+  /* margin-top: -50px; */
+  border-top: 1px solid grey;
+
+}
+
+.bottom-footer p {
+  text-align: center;
+  font-size: 15px;
 }
